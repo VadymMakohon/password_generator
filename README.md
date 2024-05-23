@@ -16,9 +16,7 @@ The function generates a password by randomly selecting characters from a pool o
 
 To generate a password, simply run the script `generate_password.py`. Here's an example:
 
-```bash
-$ python generate_password.py
-Generated Password: H3llo@W0rld!
+![Screenshot 2024-05-23 at 10 45 20 AM](https://github.com/VadymMakohon/password_generator/assets/138728243/f21c00ae-7cf3-4c1b-8654-1d95fbd40e5f)
 
-## Contributors
+# Contributors
 - [Vadym Makohon](https://github.com/VadymMakohon)
