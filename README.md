@@ -19,3 +19,6 @@ To generate a password, simply run the script `generate_password.py`. Here's an 
 ```bash
 $ python generate_password.py
 Generated Password: H3llo@W0rld!
+
+## Contributors
+- [Vadym Makohon](https://github.com/VadymMakohon)
