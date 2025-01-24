@@ -21,15 +21,11 @@ The generate_password function takes several parameters:
 - uppercase: Minimum number of uppercase letters to include (default: 1).
 - lowercase: Minimum number of lowercase letters to include (default: 1).
 
-The `generate_password` function takes several parameters:
+### Example Workflow:
 
-- `length`: Length of the password (default is 16 characters)
-- `nums`: Number of digits to include in the password (default is 1)
-- `special_chars`: Number of special characters to include in the password (default is 1)
-- `uppercase`: Number of uppercase letters to include in the password (default is 1)
-- `lowercase`: Number of lowercase letters to include in the password (default is 1)
-
-The function generates a password by randomly selecting characters from a pool of uppercase letters, lowercase letters, digits, and special characters. It ensures that the generated password meets the specified constraints by using regular expressions to count the occurrences of each character type.
+1. The function ensures each specified character type is included by pre-selecting the required amount.
+2. Any remaining characters are randomly selected from a pool of all character types.
+3. The selected characters are shuffled for randomness and returned as a secure password.
 
 ## Usage
 
