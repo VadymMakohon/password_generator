@@ -21,7 +21,7 @@ The generate_password function takes several parameters:
 - uppercase: Minimum number of uppercase letters to include (default: 1).
 - lowercase: Minimum number of lowercase letters to include (default: 1).
 
-### Example Workflow:
+## 📋Example Workflow:
 
 1. The function ensures each specified character type is included by pre-selecting the required amount.
 2. Any remaining characters are randomly selected from a pool of all character types.
@@ -33,16 +33,22 @@ Prerequisites:
 - Make sure you have Python 3 installed on your machine.
 
 Steps to Run:
-- Clone the repository:
+1. Clone the repository:
+- `bash` `git clone https://github.com/VadymMakohon/password_generator.git`
+- `cd password_generator`
+2. Run the script:
+- `python generate_password.py`
+3. Example Output:
+- `Generated password: P@ssw0rd!23XyZ4&`
 
 To generate a password, simply run the script `generate_password.py`. Here's an example:
 
 
 This repository is for educational purposes only and has an MIT License
 
-### 
-💬 Show your support
+## 💬 Show your support
 
 Give a ⭐ if you like these projects!
+
 # 🤝 Contributors
 - [Vadym Makohon](https://github.com/VadymMakohon)
