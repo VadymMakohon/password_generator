@@ -27,15 +27,22 @@ The generate_password function takes several parameters:
 2. Any remaining characters are randomly selected from a pool of all character types.
 3. The selected characters are shuffled for randomness and returned as a secure password.
 
-## Usage
+## 🚀 Usage
+
+Prerequisites:
+- Make sure you have Python 3 installed on your machine.
+
+Steps to Run:
+- Clone the repository:
 
 To generate a password, simply run the script `generate_password.py`. Here's an example:
 
 
 This repository is for educational purposes only and has an MIT License
 
-### Show your support
+### 
+💬 Show your support
 
 Give a ⭐ if you like these projects!
-# Contributors
+# 🤝 Contributors
 - [Vadym Makohon](https://github.com/VadymMakohon)
